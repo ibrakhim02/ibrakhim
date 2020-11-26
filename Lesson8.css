@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+nav {
+    height: 90px;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-family: sans-serif;
+    border-bottom: 1px solid gray;
+    /* position: fixed; */
+}
+.first {
+   font-size: 25px;
+   display: flex;
+}   
+a{
+    color: whitesmoke;
+} 
+.second {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.tochka {
+    width: 6px;
+    height: 6px;
+    background-color: gray;
+    border-radius: 50%;
+}
+.logo {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: black;
+    border: 2px solid white;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.fourth {
+    color: white;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.bigtext {
+    font-size: 60px;
+    
+}
