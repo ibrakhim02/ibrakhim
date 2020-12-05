@@ -1,0 +1,45 @@
+.btn{
+    padding: 0 !important;
+    width: 150px;
+    height: 60px;
+    font-size: 17px;
+    padding: 5px;
+    border: none;
+    background-color: lightgoldenrodyellow;
+    transition: 
+        width 1s, 
+        height 1s,
+        font-size 1s;
+}
+.btn:hover{
+    font-size: 17px;
+    color: white;
+    width: 150px;
+    height: 60px;
+}
+.second{
+    height: 100%;
+    width: 0;
+    transition: width 1s, 
+    background-color 1s;
+}
+.btn:hover > .second{
+    width: 100%;
+    background-color: blue;
+}
+.text{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.third {
+    height: 100%;
+    width: 0%;
+    transition: width 1s, 
+    background-color 1s;
+}
+.btn:hover > .third {
+    width:100%;
+    background-color: blue;
+    
+}
