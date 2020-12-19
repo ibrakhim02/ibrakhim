@@ -1,0 +1,57 @@
+.port-image    {
+    margin: 20px;
+    padding: 0;
+    width: 350px;
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+    background-color: lightgray;
+    background-image: url(https://www.airfrance.ca/CA/common/common/img/tbaf/news/XXX/5-destinations-pour-allier-avec-succes-ville-et-nature/XXX-5-destinations-pour-allier-avec-succes-ville-et-nature-1_1-1024x1024.jpg);
+    background-size: cover;
+}
+.port-image > h3 {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: lightgrey ;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    align-items: flex-end;
+    opacity: 0;
+    transition: all 0.4s;
+    display: flex;
+}
+.port-image > h3:hover {
+    opacity: 1;
+}
+.port-image:hover {
+    background-image: none;
+}
+.pricing {
+    margin-top: 1000px;
+    margin-bottom: 1000px;
+}
+
+@media(max-width:992px){
+    .burger-links {
+       position: absolute;
+       background-color: white;
+       width: 100% !important;
+       left: 0;
+       top: 60px;
+       align-items: center;
+       height: 700px;
+       justify-content: center;
+       display: flex;
+       background-color: lightblue;
+       transition: all 1s;
+    }
+    .burger-links > *{
+        width: 25%;
+        font-size: 25px;
+    }
+    .port-image {
+        display: flex;
+        justify-content: center;
+    }
+}
