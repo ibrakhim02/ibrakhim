@@ -1,0 +1,78 @@
+body {
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+.nav {
+    background-color: blueviolet !important;
+}
+
+.first {
+    width: 70%;
+    height: 500px;
+    margin-left: 15%;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.second h1 {
+    font-size: 65px;
+    font-weight: 520;
+}
+.second p {
+    font-size: 22px;
+    margin-top: 30px;
+}
+.second {
+    width: 50%;
+}
+.third {
+    width: 40%;
+}
+.fourth {
+    margin-top: 30px;
+}
+.fourth :first-child {
+    width: 150px;
+    height: 55px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: blueviolet;
+}
+.fourth :last-child {
+    width: 150px;
+    height: 55px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-size: 20px;
+    font-weight: bold;
+    color: grey;
+    background-color: transparent;
+    margin-left: 15px;
+}
+.fourth :last-child:hover {
+    background-color: grey;
+    color: white;
+}
+.fourth :first-child:hover {
+    background-color: rgb(90, 39, 138);
+}
+.random {
+    position:absolute;
+    top: -150px;
+    left: -100px;
+    background-color: rgba(211, 211, 211, 0.26);
+    z-index: -1;
+    width: 2300px;
+    height: 700px;
+    transform: rotate(-10deg);
+}
+.third {
+    background-image: url(bootstrap.svg);
+    background-size: cover;
+}
+.navbar-nav a {
+    color: white;
+}
